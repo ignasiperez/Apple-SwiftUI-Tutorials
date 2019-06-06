@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  SwiftUITutorial101
+//  SwiftUITutorial101 - Creating and Combining Views - Landmarks
 //
 //  Created by Ignasi Perez-Valls on 05/06/2019.
 //  Copyright © 2019 ignasiSwift. All rights reserved.

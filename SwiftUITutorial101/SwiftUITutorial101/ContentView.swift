@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SwiftUITutorial101
+//  SwiftUITutorial101 - Creating and Combining Views - Landmarks
 //
 //  Created by Ignasi Perez-Valls on 05/06/2019.
 //  Copyright © 2019 ignasiSwift. All rights reserved.
@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Text("Turtle Rock")
+                .font(.title)
+                HStack {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
+                }
+        }
+        .padding()
     }
 }
 
@@ -21,3 +32,6 @@ struct ContentView_Previews : PreviewProvider {
     }
 }
 #endif
+
+
+
