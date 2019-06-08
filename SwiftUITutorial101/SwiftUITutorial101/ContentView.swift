@@ -8,24 +8,27 @@
 
 import SwiftUI
 
+// Conforms to the View protocol and describes the view’s content and layout.
 struct ContentView : View {
     var body: some View {
         VStack {
-            Text("Turtle Rock")
-                .font(.title)
-                HStack {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
-                }
+//            Text("Hello SwiftUI!")
+            Text("Turtle Rock").font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                    .font(.subheadline)
+                Spacer()
+                Text("California").font(.subheadline)
+            }
         }
+            
         .padding()
     }
 }
 
 #if DEBUG
+
+// Declares a preview of the ContentView struct.
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         ContentView()
