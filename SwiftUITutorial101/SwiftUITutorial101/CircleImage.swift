@@ -3,7 +3,7 @@
 //  SwiftUITutorial101 - Landmarks
 //
 //  Created by Ignasi Perez-Valls on 07/06/2019.
-//  Copyright © 2019 ignasiSwift. All rights reserved.
+//  Copyright © 2019 Swiftland.eu. All rights reserved.
 //
 
 import SwiftUI
